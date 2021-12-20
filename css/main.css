@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(#f696af, #6571ac);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.card {
+    width: 50%;
+    height: 30rem;
+    background-color:#5d58d7;
+    border-radius: 20px;
+}
+.images-container {
+    background-color: #aa77c3;
+    display: flex;
+    width: 210;
+    height: 130;
+}
+.image {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 120px;
+}
